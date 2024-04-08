@@ -81,6 +81,7 @@ plt.title('Price of the Cars')
 plt.xlabel('price Type')
 plt.ylabel('Count')
 plt.show()
+
 '''fig, ax = plt.subplots()
 ax.scatter(df['price'], df1['Y'], color='black', alpha=0.1)
 ax.set_xlabel('Price')
@@ -104,4 +105,4 @@ print(f"The average MPG for the highway is: {round(high_avg,2)}")
 
 print("The average Price for a car is: $15,236")
 
-
+print("By analyzing the data we can say that a sedan Toyota that runs on gas around the price of $15,236 is the best car to buy.")
